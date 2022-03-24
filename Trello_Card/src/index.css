@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.template {
+  align-items: center;
+  background-color: rgb(219, 215, 215);
+  border: 2px solid rgb(46, 158, 239);
+  width: 40%;
+  height: 100%;
+}
+.title {
+  display: flex;
+  color: #3e474e;
+  margin-bottom: -10px;
+}
+.title h2 {
+  flex: 4;
+  margin: 20px;
+}
+.title i {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 20px;
+  color: #3e474e90;
+}
+.card {
+  border: 1px solid rgb(186, 179, 179);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  height: 40%;
+  margin: 10px;
+  margin-left: 20px;
+}
+.card p {
+  color: #383c3f;
+  margin: 10px;
+  font-size: 18px;
+}
+.footer {
+  color: #3e474e;
+  font-size: 20px;
+  margin: 20px;
+}
