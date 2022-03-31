@@ -1,0 +1,57 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.template {
+  align-items: center;
+  background-color: rgb(239, 237, 237);
+  width: 60%;
+  height: 100%;
+}
+
+.nav {
+  background-color: rgb(255, 128, 0);
+  display: flex;
+  height: 35px;
+  align-items: center;
+}
+.news {
+  color: #6c6f71;
+  line-height: 1px;
+  padding-bottom: 10px;
+}
+.item_1 {
+  margin: 10px 10px;
+}
+.info {
+  color: black;
+  font-weight: 600;
+}
+.item_2 {
+  display: flex;
+  margin: 0px 40px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.logo {
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+  margin: 1px;
+}
+.list-item {
+  margin-left: 5px;
+}
+
+.time {
+    padding-left: 0.3em;
+    color: #8899a6;
+    }
+    .time::before {
+    content: "\00b7";
+    padding-right: 0.3em;
+    }
